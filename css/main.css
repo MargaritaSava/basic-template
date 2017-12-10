@@ -1,0 +1,19 @@
+/*Targets any element that has the class*/
+.box{
+  background-color: red;
+}
+/*Targets any a tag on the html page*/
+a{
+
+}
+
+/*The same css selector further down is more important than the ones before it*/
+.box{
+	background-color: fuchsia;
+}
+/*Changing the width and height of something with the class of size*/
+.size{
+	border:20px darkcyan double;
+	height:50px;
+	width:50%;
+}
